@@ -1,0 +1,34 @@
+{
+  "name": "@uni-design-system/uni-react-cryptocurrency-icons",
+  "author": "George English",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "React cryptocurrency component icon library for the UNI Design System.",
+  "keywords": [
+    "React",
+    "SVG",
+    "Icons",
+    "Cryptocurrency"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf src && rimraf dist",
+    "build": "npm run svgr && yarn build:esm && yarn build:cjs",
+    "svgr": "svgr -- icons",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "devDependencies": {
+    "@svgr/babel-plugin-transform-svg-component": "^6.2.0",
+    "@svgr/cli": "^6.1.2",
+    "@types/node": "^18.11.18",
+    "@types/react": "^17.0.41",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  }
+}
