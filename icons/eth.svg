@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg fill="#d1d1d1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <g fill-rule="evenodd">
+    <path d="M 23.994 16.219 L 16.498 4 L 9 16.22 L 16.498 20.573 L 23.994 16.219 Z M 24 17.616 L 16.498 21.967 L 9 17.617 L 16.498 27.995 L 24 17.616 Z"/>
+    <g fill-rule="nonzero">
+      <path fill-opacity=".298" d="M16.498 4v8.87l7.497 3.35zm0 17.968v6.027L24 17.616z"/>
+      <path fill-opacity=".801" d="M16.498 20.573l7.497-4.353-7.497-3.348z"/>
+      <path fill-opacity=".298" d="M9 16.22l7.498 4.353v-7.701z"/>
+    </g>
+  </g>
+</svg>
